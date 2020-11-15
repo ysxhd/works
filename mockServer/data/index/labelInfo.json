@@ -1,0 +1,79 @@
+{
+    "success": true,
+    "statusCode": 1000,
+    "message": "成功",
+    "data": {
+        "autoTags": [
+            {
+                "id": 85,
+                "info": "群体综合实力一般,群体知识产权能力弱",
+                "tagName": "自动学习标签分组0"
+            }
+        ],
+        "count": {
+            "basicInfo": 0,
+            "baxx": 0,
+            "bgxxAddress": 0,
+            "bgxxBaxx": 0,
+            "bgxxFrname": 0,
+            "bgxxInvest": 0,
+            "bgxxName": 0,
+            "bgxxOperate": 0,
+            "bgxxOther": 0,
+            "bgxxRegcap": 0,
+            "blackList": 0,
+            "dishonesty": 0,
+            "entinv": 0,
+            "fzjg": 0,
+            "gdxx": 0,
+            "jyyc": 0,
+            "ktgg": 0,
+            "liquidation": 0,
+            "mordetail": 0,
+            "qyqs": 0,
+            "recruit": 0,
+            "redList": 0,
+            "rjzzq": 0,
+            "rmfygg": 0,
+            "shangbiao": 0,
+            "sharesfrost": 0,
+            "sharesimpawn": 0,
+            "websiteInfo": 0,
+            "xzcf": 0,
+            "xzxk": 0,
+            "zgcpwsw": 0,
+            "zhaobiao": 0,
+            "zhixing": 0,
+            "zhongbiao": 0,
+            "zhuanli": 0,
+            "zizhi": 0,
+            "zpzzq": 0,
+            "zzbiao": 0
+        },
+        "defaultTags": [
+            {
+                "id": 1,
+                "info": null,
+                "tagName": "注销"
+            },
+            {
+                "id": 2,
+                "info": null,
+                "tagName": "吊销"
+            }
+        ],
+        "manualTags": [
+            {
+                "id": 82,
+                "indexValue": {
+                    "是否是国企": "是",
+                    "目标公司被执行数量": "5",
+                    "企业规模": "小型",
+                    "是否上市": "是",
+                    "所属行业": "农、林、牧、渔服务业"
+                },
+                "tagName": "一个手工标签1"
+            }
+        ]
+    }
+}

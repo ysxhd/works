@@ -1,0 +1,78 @@
+.index{
+    width: 1280px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    .test{
+        width: 100%;
+        height: 400px;
+    }
+    .graphWraper{
+        float: left;
+        overflow: hidden;
+        width: 1160px;
+        background:rgba(250,250,252,1);
+        position: relative;
+        .loading{
+            position: absolute;
+            width: 100%;
+            padding: 200px 0 0 0;
+            text-align: center;
+        }
+        .topBanner{
+            width: 100%;
+            height: 30px;
+            background: url('images/top.png');
+        }
+        .graph{
+            width: 100%;
+            height: 740px;
+        }
+        .bottomBanner{
+            width: 100%;
+            height: 14px;
+            background: url('images/bottom.png');
+            margin-bottom: 20px;
+        }
+        :global{
+            .oneDegreeImg{
+                .img{
+                    display: block;
+                    width: 32px;
+                    height: 32px;
+                }
+                .text{
+                    display: block;
+                    width: 100px;
+                    text-align: center;
+                    margin-left: -32px;
+                    font-size: 12px;
+                }
+            }
+            .tip{
+                background-color: rgba(0, 0, 0, 0.6);
+                border-radius: 4px;
+                padding: 2px 5px;
+                color: #fff;
+            }
+        }
+       
+    }
+    .floatLayer{
+        display: block;
+        float: right;
+        width: 100px;
+        height: 128px;
+        background: url('images/aiyexianxing.png');
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        span{
+            display: block;
+            margin-top: 10px; 
+        }
+    }
+    .simulatedClick{
+        display: none;
+    }
+}

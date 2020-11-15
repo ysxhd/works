@@ -1,0 +1,29 @@
+.loadingPage{
+    padding-top: 225px;
+    background: url("../../../images/loadingPage-bg.png") center top no-repeat;
+    text-align: center;
+}
+.loadingPageText{
+    font-weight:bold;
+    padding:20px 0;
+}
+.btnReload{
+    display:inline-block;
+    padding:6px 20px;
+    background-color:#00baff;
+    border-radius:3px;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+    transition:all 0.2s;
+    &:hover{
+        background-color:darken(#00baff,6%)
+    }
+}
+
+.pastDelaySpin{
+    padding-top:100px;
+    text-align: center;
+    width:100%;
+}

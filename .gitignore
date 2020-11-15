@@ -1,0 +1,13 @@
+/node_modules
+/build
+/dist
+/bin/*.log
+/.idea
+/.settings
+/*.log
+/yarn.lock
+*.iml
+*.project
+.DS_STORE
+/.history
+/.vscode

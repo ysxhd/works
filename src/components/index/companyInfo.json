@@ -1,0 +1,272 @@
+{
+    "companyName": "xxx科技有限公司",
+    "creditCode": "15414224411144444",
+    "isFocus": false,
+    "child": [
+        {
+            "name": "基础信息",
+            "child": [
+                {
+                    "name": "工商基本信息", 
+                    "eName": "basicInfo",
+                    "numName": "basicInfo",
+                    "child":[]
+                },
+                {
+                    "name": "管理者信息",
+                    "child":[
+                        {"name": "股东信息",  "eName": "shareholder", "numName": "gdxx"}, 
+                        {"name": "主要人员", "eName": "baxx", "numName": "baxx"}]
+                }
+            ]
+        },
+        {
+            "name": "公共信用信息",
+            "child": [
+                {
+                    "name": "红名单信息", 
+                    "eName": "redList",
+                    "numName": "redList",
+                    "child":[]
+                },
+                {
+                    "name": "黑名单信息", 
+                    "eName": "blackList",
+                    "numName": "blackList",
+                    "child":[]
+                },
+                {
+                    "name": "行政处罚信息",
+                    "eName": "xzcf",
+                    "numName": "xzcf",
+                    "child":[]
+                },
+                {
+                    "name": "行政许可信息", 
+                    "eName": "xzxk",
+                    "numName": "xzxk",
+                    "child":[]
+                },
+                {
+                    "name": "经营异常信息", 
+                    "eName": "jyyc",
+                    "numName": "jyyc",
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "标签信息",
+            "child": [
+                {
+                    "name": "预设标签",
+                    "child":[]
+                },
+                {
+                    "name": "手工标签", 
+                    "child":[]
+                },
+                {
+                    "name": "自动学习标签", 
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "信用评价信息",
+            "child": [
+                {
+                    "name": "信用监管信息", 
+                    "child":[]
+                },
+                {
+                    "name": "社会评价信息", 
+                    "child":[]
+                },
+                {
+                    "name": "其他信用评价信息", 
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "司法信息",
+            "child": [
+                {
+                    "name": "失信被执行人", 
+                    "eName": "dishonesty",
+                    "numName": "dishonesty",
+                    "child":[
+                        {"name": "软件著作权", "eName": "softwarecopyright", "numName": "rjzzq"}, 
+                        {"name": "作品著作权", "eName": "copyrights", "numName": "zpzzq"}, 
+                        {"name": "商标", "eName": "trademark", "numName": "shangbiao"}, 
+                        {"name": "专利", "eName": "patent", "numName": "zhuanli"}
+                    ]
+                },
+                {
+                    "name": "裁判文书", 
+                    "eName": "zgcpwsw",
+                    "numName": "zgcpwsw",
+                    "child":[]
+                },
+                {
+                    "name": "开庭公告", 
+                    "eName": "ktgg",
+                    "numName": "ktgg",
+                    "child":[]
+                },
+                {
+                    "name": "人民法院公告", 
+                    "eName": "rmfygg",
+                    "numName": "rmfygg",
+                    "child":[]
+                },
+                {
+                    "name": "被执行人", 
+                    "eName": "zhixing",
+                    "numName": "zhixing",
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "其他信息",
+            "child": [
+                {
+                    "name": "修复信息",
+                    "child":[]
+                },
+                {
+                    "name": "异议申请信息", 
+                    "child":[]
+                },
+                {
+                    "name": "投诉信息", 
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "公用事业信息",
+            "child": [
+                {
+                    "name": "其他公用事业信息", 
+                    "child":[]
+                },
+                {
+                    "name": "拖欠公用事业费用信息", 
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "行政执法信息",
+            "child": [
+                {
+                    "name": "行政奖励信息", 
+                    "child":[]
+                },
+                {
+                    "name": "监督检查信息", 
+                    "child":[]
+                },
+                {
+                    "name": "行政确认信息", 
+                    "child":[]
+                },
+                {
+                    "name": "行政裁决信息", 
+                    "child":[]
+                },
+                {
+                    "name": "行政征收信息", 
+                    "child":[]
+                },
+                {
+                    "name": "行政强制信息", 
+                    "child":[]
+                }
+            ]
+        },
+        {
+            "name": "经营信息",
+            "child": [
+                {
+                    "name": "域名备案", 
+                    "eName": "website",
+                    "numName": "websiteInfo",
+                    "child":[]
+                },
+                {
+                    "name": "知识产权", 
+                    "child":[
+                        {"name": "软件著作权", "eName": "softwarecopyright", "numName": "rjzzq"}, 
+                        {"name": "作品著作权", "eName": "copyrights", "numName": "zpzzq"}, 
+                        {"name": "商标", "eName": "trademark", "numName": "shangbiao"}, 
+                        {"name": "专利", "eName": "patent", "numName": "zhuanli"}
+                    ]
+                },
+                {
+                    "name": "资质资格信息", 
+                    "eName": "qualification",
+                    "numName": "zizhi",
+                    "child":[]
+                },
+                {
+                    "name": "社会保障信息", 
+                    "child":[]
+                },
+                {
+                    "name": "资产信息", 
+                    "child":[{"name": "动产抵押", "eName": "dcdy", "numName": "mordetail" }]
+                },
+                {
+                    "name": "招聘信息", 
+                    "eName": "recruit",
+                    "numName": "recruit",
+                    "child":[]
+                },
+                {
+                    "name": "财务信息", 
+                    "child":[
+                        {"name": "清算信息", "eName": "jyxx", "numName": "liquidation"}, 
+                        {"name": "股权质押", "eName": "liquidation", "numName": "sharesimpawn"}, 
+                        {"name": "股权冻结", "eName": "sharesfrost", "numName": "sharesfrost"}, 
+                        {"name": "欠税信息", "eName": "qyqs"}
+                    ]
+                },
+                {
+                    "name": "工商变更", 
+                    "child":[
+                        {"name": "名称变更", "eName": "changeName", "numName": "bgxxName"}, 
+                        {"name": "法人变更", "eName": "changeFrname", "numName": "bgxxFrname"}, 
+                        {"name": "住所变更", "eName": "changeAddress", "numName": "bgxxAddress"}, 
+                        {"name": "经营范围变更", "eName": "changeScope", "numName": "bgxxOperate"}, 
+                        {"name": "注册资本变更", "eName": "changeRegcap", "numName": "bgxxRegcap"},
+                        {"name": "主要人员变更", "eName": "changeBaxx", "numName": "bgxxFrname"},
+                        {"name": "股东变更", "eName": "gdxx", "numName": "bgxxInvest"}, 
+                        {"name": "其他", "eName": "changeOther"} 
+                    ]
+                },
+                {
+                    "name": "分支机构", 
+                    "eName": "branch",
+                    "numName": "fzjg",
+                    "child":[]
+                },
+                {
+                    "name": "对外投资", 
+                    "eName": "entinvest",
+                    "numName": "entinv",
+                    "child":[]
+                },
+                {
+                    "name": "招中标", 
+                    "eName": "bid",
+                    "numName": "zzbiao",
+                    "child":[]
+                }
+            ]
+        }
+    ]
+}
