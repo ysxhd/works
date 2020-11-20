@@ -27,7 +27,7 @@ export default class Index extends Component {
                 this.props.history.push(`/holographicPortrait/search/subjectDetail/${data}/${qyxxId}`);
             }
         });
-        this.get2();
+        // this.get2();
     }
     get2() {
         let { qyxxId = '1234567894555554ddsad', companyName = '成都数联铭品科技有限公司', creditCode = '--' } = this.props.match.params;
@@ -49,12 +49,12 @@ export default class Index extends Component {
         return (
             <div className={styles.index}>
                 {/* <Test /> */}
-                <div className={styles.graphWraper}>
+                {/* <div className={styles.graphWraper}>
                     {loading ? <div className={styles.loading}><Spin /></div> : null}
                     <div className={styles.topBanner}></div>
                     <div className={styles.graph} id="cig2"></div>
                     <div className={styles.bottomBanner}></div>
-                </div>
+                </div> */}
                 <div className={styles.graphWraper} id="graphWraper">
                     {loading ? <div className={styles.loading}><Spin /></div> : null}
                     <div className={styles.topBanner}></div>
