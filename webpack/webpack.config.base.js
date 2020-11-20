@@ -104,23 +104,23 @@ export default {
                 }
             }],
             threads: 4
-        }),
-        new CopyWebpackPlugin([
-            {
-                from: resolve(src + '/data'),
-                to: `${STATIC_PATH}/data/`,
-                toType: 'dir'
-            },
-            {
-                from: resolve(src + '/libs'),
-                to: `${STATIC_PATH}/libs`,
-                toType: 'dir'
-            },
-            {
-                from: resolve(src + '/fonts'),
-                to: `${STATIC_PATH}/fonts/`,
-                toType: 'dir'
-            }
-        ])
+        })
+        // new CopyWebpackPlugin([
+        //     {
+        //         from: resolve(src + '/data'),
+        //         to: `${STATIC_PATH}/data/`,
+        //         toType: 'dir'
+        //     },
+        //     {
+        //         from: resolve(src + '/libs'),
+        //         to: `${STATIC_PATH}/libs`,
+        //         toType: 'dir'
+        //     },
+        //     {
+        //         from: resolve(src + '/fonts'),
+        //         to: `${STATIC_PATH}/fonts/`,
+        //         toType: 'dir'
+        //     }
+        // ])
     ]
 };

@@ -7,9 +7,9 @@ import notFound from 'components/notFound/router';
 import systemError from 'components/systemError/router';
 
 let routes = [
-    ...(index(LoadableWrap)),
-    ...(systemError(LoadableWrap)),
-    ...(notFound(LoadableWrap))
+    ...(index(LoadableWrap))
+    // ...(systemError(LoadableWrap)),
+    // ...(notFound(LoadableWrap))
 ];
 
 export default routes;

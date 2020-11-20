@@ -101,14 +101,14 @@ export default webpackMerge(baseConfig, {
         new webpack.DefinePlugin({               // 配置全局变量
             'process.env.NODE_ENV': JSON.stringify('production'),
             __DEV__: false
-        }),
-        new FileManagerPlugin({ 
-            onEnd: {
-                // mkdir: ['./build'],
-                archive: [
-                    { source: resolve('../' + build), destination: resolve('../' + build + '/' + packageName + '.zip') }
-                ]
-            }
         })
+        // new FileManagerPlugin({ 
+        //     onEnd: {
+        //         // mkdir: ['./build'],
+        //         archive: [
+        //             { source: resolve('../' + build), destination: resolve('../' + build + '/' + packageName + '.zip') }
+        //         ]
+        //     }
+        // })
     ]
 });
